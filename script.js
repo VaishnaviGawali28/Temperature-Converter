@@ -6,8 +6,10 @@ cel.addEventListener("input", function () {
     fah.value = f;
 })
 fah.addEventListener("input", function () {
+    s
     let f = this.value;
-    let c = (f-32) * 5/9;
+    let c = (f - 32) * 5 / 9;
     cel.value = c;
 })
 
+console.log("hello");
